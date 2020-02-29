@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>FitnessTracker</title>
+  
+</head>
+
+
+<body>
+
+
+   
+  <nav class=" navbar  navbar-dark fixed-top scrolling-navbar "> 
+    <ul class="navbar-nav nav-flex-icons ">
+      <li class="menu__item"><a [routerLink]="['/landing']" class="menu__link active">
+        <span>
+          <i class="fas fa-home"></i>
+          
+        </span>
+        Home</a></li>
+       <li class="menu__item"><a [routerLink]="['/form']" class="menu__link">
+         <span>
+        <i class="fas fa-info-circle"></i>
+         </span>
+         Place Appointment</a></li>
+         <li class="menu__item"><a [routerLink]="['/view']" class="menu__link">
+          <span>
+         <i class="fas fa-info-circle"></i>
+          </span>
+          View Appointment</a></li>
+       <li class="menu__item"><a [routerLink]="['/contact']" class="menu__link">
+         <span>
+         <i class="fas fa-phone-volume"></i>
+        </span>
+         Contact us</a></li>
+    </ul>
+    <strong><img src="assets/logo.png" height="100" width="100" class="d-inline-block align-top" alt=""></strong>
+  </nav>
+  <div class="sidenav">
+    <ul class=" navbar-nav nav-flex-icons ml-auto">
+    <li class="menu__item"><a [routerLink]="['/landing']" class="menu__link active">
+      <span>
+        <i class="fas fa-home"></i>
+        
+      </span>
+      Home</a></li>
+     <li class="menu__item"><a [routerLink]="['/form']" class="menu__link">
+       <span>
+      <i class="fas fa-info-circle"></i>
+       </span>
+       Place Appointment</a></li>
+       <li class="menu__item"><a [routerLink]="['/view']" class="menu__link">
+        <span>
+       <i class="fas fa-info-circle"></i>
+        </span>
+        View Appointment</a></li>
+     <li class="menu__item"><a [routerLink]="['/contact']" class="menu__link">
+       <span>
+       <i class="fas fa-phone-volume"></i>
+      </span>
+       Contact us</a></li>
+  </ul>
+  </div>
+  <section class="view intro-2 ">
+    <div class="ml-5 mt-5 col-lg-9 offset-lg-3 col-sm-5 offset-sm-0">
+    
+        
+        <!-- Material form register -->
+        
+         <div class="card">
+            <h1>{{somthing | json}}</h1>
+             </div>
+             </div>
+             </section>
+  
+    
+   
+  
+  
+
+
+
+ 
+</body>
+</html>
